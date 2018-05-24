@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Adobe明體";
+  src: url('polit web design 0425/字體/Adobe明體.otf') format("opentype");
+}
+@font-face {
+  font-family: "華康行楷體W5";
+  src: url('polit web design 0425/字體/華康行楷體W5.ttc') format("opentype");
+}
+@font-face {
+  font-family: "Adobe 繁黑體 Std B";
+  src: url('polit web design 0425/字體/Adobe 繁黑體 Std B.otf') format("opentype");
+}
+@font-face {
+  font-family: "華康正顏楷體W5";
+  src: url('polit web design 0425/字體/華康正顏楷體W5.ttc') format("opentype");
+}
+
+html{
+	font-family:  "Adobe 繁黑體 Std B", sans-serif;
+	width:100%;
+}

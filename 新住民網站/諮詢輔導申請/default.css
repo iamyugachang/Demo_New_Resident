@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "Adobe明體";
+  src: url('../polit web design 0425/字體/Adobe明體.otf') format("opentype");
+}
+@font-face {
+  font-family: "華康行楷體W5";
+  src: url('../polit web design 0425/字體/華康行楷體W5.ttc') format("opentype");
+}
+@font-face {
+  font-family: "Adobe 繁黑體 Std B";
+  src: url('../polit web design 0425/字體/Adobe 繁黑體 Std B.otf') format("opentype");
+}
+@font-face {
+  font-family: "華康正顏楷體W5";
+  src: url('../polit web design 0425/字體/華康正顏楷體W5.ttc') format("opentype");
+}
+html{
+	font-family:  "Adobe 繁黑體 Std B", sans-serif;
+	width:100%;
+}
+
+
+.container{
+	position:relative;
+	//top:-10%;
+	top:15%;
+	text-align:center;
+	
+	}
+.iframe{
+	width:50%;
+	height:170%;
+	
+	
+}
+
+.form{
+	display:inline-block;
+	position:relative;
+	//left:0%;
+	//width:80%;
+	border: 5px solid #9F88FF;
+	border-radius: 1%;
+	padding:0 1em;
+	background-color:#e6e6e6;
+	
+}
+.question{
+	font-weight:bold;
+	position:relative;
+	margin:5% 0%;
+	font-size:35px;
+}
+.q-content{
+	font-weight:bold;
+	color:#603813;
+}
+input[type=radio]{
+    /* your style goes here */
+    display: inline-block;
+    height: 2em;
+    width: 2em;
+    border-radius: 4px;
+    background-color: gray;        
+}
+input[type=checkbox]{
+    /* your style goes here */
+    display: inline-block;
+    height: 2em;
+    width: 2em;
+    border-radius: 4px;
+    background-color: gray;        
+}
+input[type=date]{
+    /* your style goes here */
+    display: inline-block;
+    height: auto;
+    width: 10em;
+    font-size:30px;
+    
+           
+}
+input[type=time]{
+    /* your style goes here */
+    display: inline-block;
+    height: auto;
+    width: 10em;
+    font-size:30px;
+    
+           
+}
+select{
+	height: auto;
+    width: 12em;
+}
+input[type=text]{
+    /* your style goes here */
+    display: inline-block;
+    height: auto;
+    width: 5em;
+    font-size:30px;
+           
+}
+.q-img{
+	height:100px;
+	width:auto;
+}
+.q-content{
+	
+	position:relative;
+	left:10%;
+}
+.txt{
+	position:relative;
+	top:-45px;
+	left:-20px;
+}
+
+.fin-button{
+	
+	height:auto;
+	width:30%;
+	position:relative;
+	left:30%;
+	
+}
+.frame{
+	position:absolute;
+	width:230px;
+	height:30px;
+	left:33%;
+	top:93.5%;
+	//border:5px solid #9F88FF;
+	
+	
+}
+
+
+
+

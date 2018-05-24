@@ -1,0 +1,103 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<div class="form">
+		
+			<div class="question">
+				<img class="q-img" src="../polit web design 0425/圖示及按鈕/picture-05.png"></img>
+				<span class="txt" >勾選工作圈</span>
+				
+				<div class="q-content">
+					<input type="radio" name="location" value="north-1" />北一
+					&emsp;
+					<input type="radio" name="location" value="north-2" />北二
+					&emsp;
+					<input type="radio" name="location" value="center" />中
+					&emsp;
+					<input type="radio" name="location" value="south" />南
+				</div>
+			</div>
+			
+			<div class="question">
+				<img class="q-img" src="../polit web design 0425/圖示及按鈕/picture-05.png"></img>
+				<span class="txt">勾選訪視學校</span>
+				<div class="q-content">	
+					<select style="font-size:20pt;">
+						<optgroup label="北一區">
+							<option>台北市1...</option>
+							<option>台北市2...</option>
+						</optgroup>
+
+						<optgroup label="北二區">
+							<option>新北市1...</option>
+							<option>新北市2...</option>
+						</optgroup>
+						<optgroup label="中區">
+							<option>台中市1...</option>
+							<option>台中市2...</option>
+						</optgroup>
+						<optgroup label="南區">
+							<option>台南市1...</option>
+							<option>台南市2...</option>
+						</optgroup>
+					</select>
+
+
+				</div>
+			</div>
+			
+			<div class="question">
+				<img class="q-img" src="../polit web design 0425/圖示及按鈕/picture-05.png"></img>
+				<span class="txt">填選訪視資訊</span>
+				<div class="q-content">
+					<label for="bookdate">日期</label>
+					<input type="date" id="bookdate" placeholder="2018-04-27">
+					<img src="../polit web design 0425/圖示及按鈕/picture-06.png" style="position:relative;top:1.3em;left:-1em;height:auto;width:20%;"/>
+					</br>
+					<label for="booktime">時間</label>
+					<input type="time" name="usr_time">
+					<img src="../polit web design 0425/圖示及按鈕/picture-07.png" style="position:relative;top:1.3em;left:-1em;height:auto;width:20%;"/>
+				</div>
+			</div>
+			
+			<div class="question">
+				<img class="q-img" src="../polit web design 0425/圖示及按鈕/picture-05.png"></img>
+				<span class="txt">填寫預計使用經費項目及金額</span>
+				<div class="q-content">
+					<input type="checkbox" name="fee1" value="north-1" />訪視費(2500元/次)
+					
+					</br>
+					<input type="checkbox" name="fee2" value="north-2" />交通費：
+					<input type="text" name="amount" size="40" value="" />
+					</br>
+					<input type="checkbox" name="fee3" value="center" checked="true"/>諮詢費：
+					<select style="font-size:20pt;">
+						<option>1000元/次</option>
+						<option>2000元/次</option>
+					</select>
+					</br>
+					<input type="checkbox" name="fee4" value="south" />宿費(僅限離島學校，1600元/日)：
+					<input type="text" name="amount" size="40" value="" />
+					</br>
+					<a>&emsp;【注意！離島前導學校之交通費(機票費)及宿費</br>&emsp;&emsp;請事先向總召提出申請】</a>
+					</br>
+					
+					總計：<input type="text" name="amount" size="40" value="如：2000" />元
+				</div>
+			</div>
+			
+			<img class="fin-button" src="../polit web design 0425/圖示及按鈕/picture-09.png" >
+			<a class="frame" href="#" ></a>
+			
+			
+		</div>
+		<script>
+			$('#123').click(function){
+				$('input[name=fee1]:checked').attr("checked", false);
+			}
+		</script>
+</body>
+</html>

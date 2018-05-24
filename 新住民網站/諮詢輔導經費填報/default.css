@@ -1,0 +1,88 @@
+/**************************/
+/*		  字體設定		  */
+/**************************/
+@font-face {
+  font-family: "Adobe明體";
+  src: url('../polit web design 0425/字體/Adobe明體.otf') format("opentype");
+}
+@font-face {
+  font-family: "華康行楷體W5";
+  src: url('../polit web design 0425/字體/華康行楷體W5.ttc') format("opentype");
+}
+@font-face {
+  font-family: "Adobe 繁黑體 Std B";
+  src: url('../polit web design 0425/字體/Adobe 繁黑體 Std B.otf') format("opentype");
+}
+@font-face {
+  font-family: "華康正顏楷體W5";
+  src: url('../polit web design 0425/字體/華康正顏楷體W5.ttc') format("opentype");
+}
+html{
+	font-family:  "Adobe 繁黑體 Std B", sans-serif;
+	width:100%;
+}
+
+html{
+	font-family:  "Adobe 繁黑體 Std B", sans-serif;
+	width:100%;
+}
+/**************************/
+/*		  大標題設定	  */
+/**************************/
+.title-type1{
+	
+	height:150px;
+}
+.title-type1 a{
+	color:#0071bc;
+	font-size:30pt;
+}
+
+.title-type1 #arrow{
+	position:relative;
+	display:inline-block;
+	height:100px;
+	width:auto;
+	top:32px;
+	
+}
+
+.title-type1 #line{
+	position:relative;
+	display:block;
+	width:1300px;
+	height:auto;
+	top:-530px;
+	left:-100px;
+	z-index:-10;
+}
+
+/**************************/
+/*		  內容設定		  */
+/**************************/
+.content{
+	font-size:30px;
+	
+}
+
+.content #upload{
+	width:500px;
+	height:auto;
+	position:relative;
+	top:-100px;
+	
+	
+}
+.frame{
+	position:absolute;
+	
+	width:330px;
+	height:50px;
+	left:8%;
+	top:23%;
+	//border:5px solid #9F88FF;
+	
+	
+	
+}
+
